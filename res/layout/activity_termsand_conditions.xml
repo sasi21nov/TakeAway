@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3A4B54"
+    tools:context="com.example.takeaway.TermsandConditions" >
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="20dp"
+        android:text="Terms &amp; Conditions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resetedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/terms"
+        android:inputType="textMultiLine"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        
+        android:text="This Agreement contains the complete terms and conditions that apply to an individuals or entitys participation in the TakeAway Affiliates Program (the Program). As used in this Agreement, we, us, or our means TakeAway Internet Private Limited or any of our affiliate; parent;  or group companies and our successors and assigns, as the case may be,  and you means the applicant. Save for our obligation to pay referral fees under Section 4, which may be performed solely by us, we may cause any of our  obligations under this Agreement to be fulfilled by any of our Affiliates (defined below), on our behalf." />
+
+    <Button
+        android:id="@+id/agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#798182"
+        android:text="I Agree" />
+
+</RelativeLayout>

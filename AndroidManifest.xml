@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.takeaway"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:name=".Check_Services"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+                <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start" >
+        </activity>
+        <activity
+            android:name=".CreateAccountStartAc"
+            android:label="@string/title_activity_create_account_start" >
+        </activity>
+        <activity
+            android:name=".TermsandConditions"
+            android:label="@string/title_activity_termsand_conditions" >
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name=".AppMainPage"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Housing"
+            android:label="@string/title_activity_housing" >
+        </activity>
+        <activity
+            android:name=".Electronics"
+            android:label="@string/title_activity_electronics" >
+        </activity>
+        <activity
+            android:name=".MotorVehicle"
+            android:label="@string/title_activity_motor_vehicle" >
+        </activity>
+        <activity
+            android:name=".OtherCategories"
+            android:label="@string/title_activity_other_categories" >
+        </activity>
+        <activity
+            android:name=".CategoryDescription"
+            android:label="@string/title_activity_category_description" >
+        </activity>
+        
+    </application>
+
+</manifest>
